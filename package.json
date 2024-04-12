@@ -1,0 +1,23 @@
+{
+  "name": "@tayyeba/currency_converter",
+  "version": "1.0.1",
+  "description": "This is a simple currency converter cli app using node and inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tayyeba Shakeel",
+  "license": "MIT",
+  "dependencies": {
+    "@tayyeba/currency_converter": "^1.0.0",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
